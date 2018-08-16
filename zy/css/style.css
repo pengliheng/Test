@@ -88,14 +88,14 @@ nav li:hover {
 
 .bannerFrist div:nth-child(1),
 .bannerFrist div:nth-child(3) {
-	background: url(../images/sky.png) no-repeat;
+	background: no-repeat;
 	background-size: cover;
 	height: 1000px;
 	width: 100%;
 }
 
 .bannerFrist div:nth-child(2) {
-	background: url(../images/sky.png) no-repeat;
+	background: no-repeat;
     background-size: cover;
     height: 1000px;
     width: 100%;
