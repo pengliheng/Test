@@ -728,6 +728,5 @@ $(document).ready(function () {
 	// 	img.src = img.dataset.src;
 	// 	img.removeAttribute('data-src')
 	// })
-	let images = document.querySelectorAll(".branwdo");
-	lazyload(images);
+	$("img.lazyload").lazyload();
 })
