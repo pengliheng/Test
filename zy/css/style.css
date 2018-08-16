@@ -139,7 +139,8 @@ nav li:hover {
 
 .meBack {
 	height: 800px;
-	background: url(../images/point-line_01.png) no-repeat 50% fixed;
+	background: no-repeat 50% fixed;
+	/* background: url(../images/point-line_01.png) no-repeat 50% fixed; */
 	width: 100%;
 	margin: 0 auto;
 }
