@@ -2,13 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>zhangyong</title>
+<title>张勇个人网站</title>
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/html5.js"></script>
-<script type="text/javascript" src="js/base.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
@@ -155,7 +151,9 @@
                     <img class="zkzh01" src="images/zkzh_01.gif">
                     <img class="zkzh02" src="images/zkzh_02.gif">
                     <img class="zkzh03" src="images/zkzh_03.gif">
-                    <div class="over14"><img class="zkzh04" src="images/zkzh_04.jpg"></div>
+                    <div class="over14">
+                        <img class="zkzh04 lazy" data-src="images/zkzh_04.jpg">
+                    </div>
                     <div>
                         <div class="del05"></div>
                         <div class="del06"></div>
@@ -164,11 +162,11 @@
                     </div>
                 </div>
                 <div class="webBig">
-                    <div class="over01"><img class="web01" src="images/web_01.jpg"></div>
-                    <div class="over02"><img class="web02" src="images/web_02.jpg"></div>
-                    <div class="over03"><img class="web03" src="images/web_03.jpg"></div>
-                    <div class="over04"><img class="web04" src="images/web_04.jpg"></div>
-                    <div class="over05"><img class="web05" src="images/web_05.jpg"></div>
+                    <div class="over01"><img class="lazy web01" data-src="images/web_01.jpg"></div>
+                    <div class="over02"><img class="lazy web02" data-src="images/web_02.jpg"></div>
+                    <div class="over03"><img class="lazy web03" data-src="images/web_03.jpg"></div>
+                    <div class="over04"><img class="lazy web04" data-src="images/web_04.jpg"></div>
+                    <div class="over05"><img class="lazy web05" data-src="images/web_05.jpg"></div>
                     <div>
                         <div class="del09"></div>
                         <div class="del10"></div>
@@ -181,8 +179,8 @@
                 	<div class="over07"><img class="app01" src="images/app_07.jpg"></div>
                     <div class="over08"><img class="app02" src="images/app_01.jpg"></div>
                     <div class="over09"><img class="app03" src="images/app_02.jpg"></div>
-                    <div class="over10"><img class="app04" src="images/app_03.jpg"></div>
-                    <div class="over11"><img class="app05" src="images/app_04.jpg"></div>
+                    <div class="over10"><img class="app04 lazy" data-src="images/app_03.jpg"></div>
+                    <div class="over11"><img class="app05 lazy" data-src="images/app_04.jpg"></div>
                     <div class="over12"><img class="app06" src="images/app_05.jpg"></div>
                     <div class="over13"><img class="app07" src="images/app_06.jpg"></div>
                     <div>
@@ -232,5 +230,13 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- cdnjs -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 </body>
 </html>
