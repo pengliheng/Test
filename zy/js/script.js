@@ -728,5 +728,6 @@ $(document).ready(function () {
 	// 	img.src = img.dataset.src;
 	// 	img.removeAttribute('data-src')
 	// })
-	$("img.lazyload").lazyload();
+
+	$('.lazy').Lazy();
 })
