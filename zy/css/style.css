@@ -388,7 +388,7 @@ nav li:hover {
 }
 
 .longHome div {
-	background: url(../images/work-set.png) no-repeat;
+	background: no-repeat;
 	height: 300px;
 	width: 100%;
 	position: absolute;
@@ -997,11 +997,11 @@ footer {
 	}
 }
 
-/* .lazy {
+.lazyback {
 	transition: 0.3s all ease-in-out;
 	opacity: 1;
 }
 
-img[data-src] {
+img[data-srcback] {
 	opacity: 0 !important;
-} */
+}

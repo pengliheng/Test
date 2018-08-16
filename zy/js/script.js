@@ -721,13 +721,21 @@ $(document).ready(function () {
 			"width": "0"
 		})
 	})
-	// Array.prototype.slice.call(
-	// 	document.querySelectorAll('.lazy')
-	// ).forEach(function(img,i){
-	// 	console.log(img);
-	// 	img.src = img.dataset.src;
-	// 	img.removeAttribute('data-src')
-	// })
 
-	$('.lazy').Lazy();
+	// Array.prototype.slice.call(
+	// 	document.querySelectorAll('lazyback')
+	// ).forEach(function(el){
+		
+	// })
 })
+
+window.onload = function(){
+	$('.lazy').Lazy();
+	Array.prototype.slice.call(
+		document.querySelectorAll('.lazyback')
+	).forEach(function(img,i){
+		console.log(img);
+		img.style.backgroundImage = `url(${img.dataset.srcback})`
+		img.removeAttribute('data-srcback')
+	})
+}
