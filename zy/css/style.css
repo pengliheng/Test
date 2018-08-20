@@ -838,7 +838,7 @@ embed {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	overflow: scroll;
+	overflow: auto;
 	display: none;
 	z-index: 54;
 }
