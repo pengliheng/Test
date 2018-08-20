@@ -10,11 +10,11 @@ $(document).ready(function () {
 	$("header").hover(function () {
 		$("header").animate({
 			"margin-top": "0px"
-		}).fadeIn(ture)
+		}).fadeIn(true)
 	}, function () {
 		$("header").delay(800).animate({
 			"margin-top": "-80px"
-		}).fadeIn(ture)
+		}).fadeIn(true)
 	})
 
 	$(".setMain>div").eq(0).siblings().hide()
@@ -722,11 +722,6 @@ $(document).ready(function () {
 		})
 	})
 
-	// Array.prototype.slice.call(
-	// 	document.querySelectorAll('lazyback')
-	// ).forEach(function(el){
-		
-	// })
 })
 
 window.onload = function(){
@@ -734,7 +729,7 @@ window.onload = function(){
 	Array.prototype.slice.call(
 		document.querySelectorAll('.lazyback')
 	).forEach(function(img,i){
-		console.log(img);
+		// console.log(img);
 		img.style.backgroundImage = `url(${img.dataset.srcback})`
 		img.removeAttribute('data-srcback')
 	})
